@@ -8,5 +8,8 @@
     "start": "node server.js"
   },
   "author": "Volodymyr Kamuz",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
