@@ -1,5 +1,12 @@
-function generateRandomNumber(){
+function generateRandomNumber() {
     return Math.floor(Math.random() * 100) + 1;
 }
 
-module.exports = generateRandomNumber;
+function greeting(name) {
+    return `Hello, ${name}`;
+}
+
+module.exports = {
+    generateRandomNumber,
+    greeting
+};
