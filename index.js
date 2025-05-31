@@ -1,1 +1,3 @@
-console.log('Hello from Node.js')
+const generateRandomNumber = require('./utils');
+
+console.log(`Random number: ${generateRandomNumber()}`);
