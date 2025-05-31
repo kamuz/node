@@ -3,4 +3,7 @@ const posts = [
     { id: 2, title: 'Post 2' },
 ];
 
-export const getPosts = () => posts;
+const getPosts = () => posts;
+const greetJavaScript = () => 'Hello, JavaScript';
+
+export {getPosts, greetJavaScript};
