@@ -1,4 +1,3 @@
-const {generateRandomNumber, greeting} = require('./utils');
+import { getPosts } from "./postController.js";
 
-console.log(`Random number: ${generateRandomNumber()}`);
-console.log(greeting('Node.js'));
+console.log(getPosts());
