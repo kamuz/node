@@ -4,6 +4,5 @@ const posts = [
 ];
 
 const getPosts = () => posts;
-const greetJavaScript = () => 'Hello, JavaScript';
 
-export {getPosts, greetJavaScript};
+export default getPosts;
