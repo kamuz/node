@@ -13,6 +13,10 @@ const server = http.createServer((req, res) => {
         res.setHeader('Content-Type', 'application/json');
         res.write(JSON.stringify(users));
         res.end();
+    } else {
+        res.setHeader('Content-Type', 'application/json');
+        res.write(JSON.stringify({message: 'Route not found'}));
+        res.end();
     }
 });
 
