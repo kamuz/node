@@ -15,6 +15,7 @@ const server = http.createServer((req, res) => {
         res.end();
     } else {
         res.setHeader('Content-Type', 'application/json');
+        res.statusCode = 404;
         res.write(JSON.stringify({message: 'Route not found'}));
         res.end();
     }
