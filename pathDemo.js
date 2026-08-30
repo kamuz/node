@@ -22,3 +22,7 @@ console.log(__filename);
 // Get path to current directory file
 const __dirname = path.dirname(__filename);
 console.log(__dirname);
+
+// Join path
+const filePath2 = path.join(__dirname, 'dir3', 'dir4', 'test.txt');
+console.log(filePath2);
