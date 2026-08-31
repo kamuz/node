@@ -11,3 +11,6 @@ console.log(os.freemem());
 
 // CPU
 console.log(os.cpus());
+
+// OS planform
+console.log(os.platform());
